@@ -29,11 +29,11 @@ body{
 
 img {
   width: 50%;
-  max-width: 300px; /* optional: won’t get bigger than 300px */
+  max-width: 300px;     /* keeps it from getting too big */
   border-radius: 16px;
-  margin-bottom: 20px;
+  display: block;       /* required to center using margin */
+  margin: 20px auto;    /* top-bottom margin 20px, auto left-right centers it */
 }
-
 
 h1{
   text-align:center;
